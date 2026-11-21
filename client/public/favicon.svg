@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Brand Charcoal Background with Soft Radii -->
+  <rect width="64" height="64" rx="16" fill="#2E2E2A" />
+  
+  <!-- Subtle Luxury Gold Framing Accent -->
+  <rect x="4" y="4" width="56" height="56" rx="12" stroke="#C59B4E" stroke-opacity="0.35" stroke-width="1.5" />
+  
+  <!-- Architectural 'V' Monogram with Brass/Gold Gradient -->
+  <defs>
+    <linearGradient id="goldGradient" x1="16" y1="16" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#EED599" />
+      <stop offset="50%" stop-color="#C59B4E" />
+      <stop offset="100%" stop-color="#9A7228" />
+    </linearGradient>
+  </defs>
+
+  <!-- Precision Geometric Architectural 'V' -->
+  <path
+    d="M17 18 L26 18 L32 37 L38 18 L47 18 L35.5 46.5 C34.8 48.2 33.5 49 32 49 C30.5 49 29.2 48.2 28.5 46.5 Z"
+    fill="url(#goldGradient)"
+  />
+
+  <!-- Subtle Architectural Drafting Diamond Accent -->
+  <polygon points="32,15 34.5,18 32,21 29.5,18" fill="#C59B4E" />
+</svg>

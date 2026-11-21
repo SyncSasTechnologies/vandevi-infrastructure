@@ -1,0 +1,18 @@
+# robots.txt for Vandevi Infrastructure
+# https://vandeviinfrastructure.com
+
+User-agent: *
+Allow: /
+Allow: /about
+Allow: /services
+Allow: /services/*
+Allow: /projects
+Allow: /contact
+
+# Protect administrative studio portal from crawler indexing
+Disallow: /admin
+Disallow: /admin/
+Disallow: /admin/*
+
+# Sitemaps
+Sitemap: https://vandeviinfrastructure.com/sitemap.xml

@@ -1,0 +1,116 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand colors */
+  --color-soft-charcoal: #2E2E2A;
+  --color-stone-taupe: #A8937A;
+  --color-sand-beige: #DCC8B1;
+  --color-ivory: #F8F6F1;
+  --color-gold: #C59B4E;
+  --color-warm-gold: #C59B4E;
+
+  /* Typography */
+  --font-montserrat: 'Montserrat', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-serif: 'Playfair Display', Georgia, Cambria, 'Times New Roman', serif;
+  --font-sans: var(--font-montserrat);
+
+  /* Type sizes */
+  --text-micro: 11px;
+  --text-caption: 12px;
+  --text-body-sm: 14px;
+  --text-body: 16px;
+  --text-body-lg: 18px;
+  --text-subheading: 22px;
+  --text-heading-sm: 30px;
+  --text-heading: 38px;
+  --text-page-title: 48px;
+  --text-display: 60px;
+
+  /* Radii */
+  --radius-control: 10px;
+  --radius-card: 22px;
+  --radius-panel: 32px;
+  --radius-image: 28px;
+  --radius-pill: 999px;
+}
+
+:root {
+  /* Design Token Spacing Variables */
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-28: 28px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-56: 56px;
+  --spacing-64: 64px;
+  --spacing-72: 72px;
+  --spacing-80: 80px;
+  --spacing-96: 96px;
+  --spacing-112: 112px;
+  --spacing-128: 128px;
+  --color-soft-charcoal: #2E2E2A;
+  --color-stone-taupe: #A8937A;
+  --color-sand-beige: #DCC8B1;
+  --color-ivory: #F8F6F1;
+  --color-gold: #C59B4E;
+  --color-warm-gold: #C59B4E;
+
+  --font-montserrat: 'Montserrat', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-serif: 'Playfair Display', Georgia, Cambria, 'Times New Roman', serif;
+}
+
+/* Base resets & typography */
+html {
+  font-family: var(--font-montserrat);
+  scroll-behavior: smooth;
+  background-color: var(--color-ivory);
+  color: var(--color-soft-charcoal);
+}
+
+/* Lucide React SVGs base styling */
+svg.lucide {
+  flex-shrink: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-ivory);
+  color: var(--color-soft-charcoal);
+  font-family: var(--font-montserrat);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Selection highlight */
+::selection {
+  background-color: rgba(212, 175, 55, 0.25);
+  color: var(--color-soft-charcoal);
+}
+
+/* Accessible focus ring */
+:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 2px;
+}
+
+/* Arch mask for organic architectural framing */
+.arch-top {
+  border-top-left-radius: 999px;
+  border-top-right-radius: 999px;
+}
+
+.arch-asymmetric {
+  border-top-left-radius: 120px;
+  border-top-right-radius: 28px;
+  border-bottom-right-radius: 28px;
+  border-bottom-left-radius: 28px;
+}
